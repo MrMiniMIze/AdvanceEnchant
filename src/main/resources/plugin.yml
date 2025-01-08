@@ -1,0 +1,17 @@
+name: SkyblockEnchants
+main: me.minimize.skyblockenchants.SkyblockEnchants
+version: 1.0.0
+author: MrMiniMize, minimize0x
+api-version: 1.20
+
+commands:
+  ench:
+    description: Opens the Skyblock Enchants main menu
+    usage: /ench
+    aliases: [enchantgui]
+    permission: skyblockenchants.use
+
+  enchadmin:
+    description: Staff commands for SkyblockEnchants
+    usage: /enchadmin reload | togglesomething | listench
+    permission: skyblockenchants.staff

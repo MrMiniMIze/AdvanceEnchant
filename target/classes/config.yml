@@ -1,0 +1,55 @@
+# ====================================================
+#    SkyblockEnchants (by MrMiniMize & minimize0x)
+# ====================================================
+
+command-alias: "ench"            # The command to open the main GUI
+
+buy-random-scroll-cost: 1000.0   # Cost for "Buy Random Scroll"
+slot-machine-cost: 500.0         # Cost to spin the slot machine
+
+# Probability distribution for random tiers from slot machine
+slot-machine-tiers:
+  COMMON: 40
+  RARE: 30
+  EPIC: 20
+  LEGENDARY: 10
+
+# Probability distribution for random tiers from direct "buy"
+buy-menu-tiers:
+  COMMON: 50
+  RARE: 30
+  EPIC: 15
+  LEGENDARY: 5
+
+# Our custom enchants. Just placeholders or minimal for now.
+enchants:
+  LIGHTNING_STRIKER:
+    displayName: "&aLightning Striker"
+    tier: "RARE"
+    maxLevel: 3
+    baseCost: 500
+    effectDescription: "Occasionally strikes lightning on hit."
+
+  HEALING_AURA:
+    displayName: "&dHealing Aura"
+    tier: "EPIC"
+    maxLevel: 2
+    baseCost: 800
+    effectDescription: "Periodically regenerates health."
+
+  EXP_BOOST:
+    displayName: "&eEXP Boost"
+    tier: "COMMON"
+    maxLevel: 5
+    baseCost: 300
+    effectDescription: "Gain extra EXP from kills/mining."
+
+  FIRE_TRAIL:
+    displayName: "&cFire Trail"
+    tier: "LEGENDARY"
+    maxLevel: 1
+    baseCost: 1000
+    effectDescription: "Leaves a trail of fire behind the user."
+
+staff:
+  enable-some-feature: true

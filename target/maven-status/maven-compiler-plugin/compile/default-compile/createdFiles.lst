@@ -1,0 +1,14 @@
+me/minimize/skyblockenchants/scrolls/ScrollManager.class
+me/minimize/skyblockenchants/gui/BuyMenuGUI.class
+me/minimize/skyblockenchants/enchants/CustomEnchant.class
+me/minimize/skyblockenchants/SkyblockEnchants.class
+me/minimize/skyblockenchants/enchants/EnchantApplyListener.class
+me/minimize/skyblockenchants/enchants/EnchantManager.class
+me/minimize/skyblockenchants/commands/EnchAdminCommand.class
+me/minimize/skyblockenchants/config/ConfigManager.class
+me/minimize/skyblockenchants/commands/EnchMainCommand.class
+me/minimize/skyblockenchants/gui/GUIInteractListener.class
+me/minimize/skyblockenchants/utils/ChatUtil.class
+me/minimize/skyblockenchants/hooks/VaultHook.class
+me/minimize/skyblockenchants/gui/MainMenuGUI.class
+me/minimize/skyblockenchants/gui/SlotMachineGUI.class
